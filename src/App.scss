@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.welcome {
+  width: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('./assets/img/brmt1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  h1{
+    font-size: 100%;
+  }
+
+  p{
+    font-size: 90%;
+  }
+
+  .day{
+    
+  }
+}
