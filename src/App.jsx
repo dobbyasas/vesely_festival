@@ -3,15 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
 
+import slipknot from './assets/logos/slipknot.png';
+import maneskin from './assets/logos/maneskin.png';
+import linkinpark from './assets/logos/linkinpark.png';
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className='welcome'>
       <div className='day'>
-        <img src=".\src\assets\logos\slipknot.png" alt="slipknot" className='logo' width={50%}/>
-        <img src=".\src\assets\logos\maneskin.png" alt="maneskin" className='logo'/>
-        <img src=".\src\assets\logos\linkinpark.png" alt="linkinpark" className='logo'/>
+      <img src={slipknot} className="logo" style={{ width: '50%' }} />
+      <img src={linkinpark} className="logo" style={{ width: '50%' }} />
+      <img src={maneskin} className="logo" style={{ width: '50%' }} />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum magni natus, iure, laborum beatae error hic quas alias, officiis ipsa culpa dignissimos commodi corporis unde aliquam. Sapiente maxime exercitationem odio.</p>
       </div>
 
