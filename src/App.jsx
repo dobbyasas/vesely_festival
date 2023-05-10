@@ -17,6 +17,7 @@ function App() {
       <img src={slipknot} className="logo" style={{ width: '50%' }} />
       <img src={linkinpark} className="logo" style={{ width: '50%' }} />
       <img src={maneskin} className="logo" style={{ width: '50%' }} />
+      BRUH
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum magni natus, iure, laborum beatae error hic quas alias, officiis ipsa culpa dignissimos commodi corporis unde aliquam. Sapiente maxime exercitationem odio.</p>
       </div>
 
